@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- For sharing on social media iamge -->
+    <!-- <meta property="og:image:url" content="http://my.website.com/images/thumb.png" />  -->
+    
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" crossorigin="" />
+    <title>Anti-Asian Hate Crime Tracker</title>
+    <meta name='type' property='og:type' content='website' />
+    <meta name='title' property='og:title' content="Anti-Asian Hate Crime Tracker" />
+    <meta name='site_name' property='og:site_name' content="Anti-Asian Hate Crime Tracker" />
+    <meta name='keywords' content="Anti-Asian Hate Crime Tracker" />
+    <meta name='url' property='og:url' content="https://hatecrimetracker.1thing.org" />
+    <meta name="image" property='og:image' content="https://hatecrimetracker.1thing.org/images/hatecrimetracker_image.png"/>
+    <meta name="description" property='og:description' content="Even though the anti-Asian hate is not under the spotlight in today’s news, the violence and hate is still happening on a daily basis."/>
+    
+    <meta name="twitter:card" content="Anti-Asian Hate Crime Trend"/>
+    <meta name="twitter:site" content="https://hatecrimetracker.1thing.org"/>
+    <meta name="twitter:creator" content="@1Thing_Org"/>
+    <meta name="twitter:title" content="Anti-Asian Hate Crime Tracker"/>
+    <meta name="twitter:description" content="Even though the anti-Asian hate is not under the spotlight in today’s news, the violence and hate is still happening on a daily basis."/>
+    <meta name="twitter:image" content="https://hatecrimetracker.1thing.org/images/hatecrimetracker_twitter.png"/>
+  </head>
+  <body class="dark-layout rs-theme-dark">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-modal/3.14.3/react-modal.min.js" integrity="sha512-MY2jfK3DBnVzdS2V8MXo5lRtr0mNRroUI9hoLVv2/yL3vrJTam3VzASuKQ96fLEpyYIT4a8o7YgtUs5lPjiLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <div id="spinning"></div>
+    <div id="root"></div>
+    <div id="backdrop-root"></div>
+    <div id="overlay-root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
